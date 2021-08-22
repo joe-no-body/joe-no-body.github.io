@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Tags & Categories
-permalink: /tags/
+title: Categories
+permalink: /categories/
 ---
 
+{% comment %}
 ## Categories
+{% endcomment %}
 
 {% for tag in site.categories %}
-{{ tag[0] }}
+**{{ tag[0] }}**
 
   {% for post in tag[1] %}
   - [{{post.title}}]({{post.url}})
@@ -15,6 +17,7 @@ permalink: /tags/
 
 {% endfor %}
 
+{% comment %}
 ## Tags
 
 {% for tag in site.tags %}
@@ -25,3 +28,4 @@ permalink: /tags/
   {% endfor %}
 
 {% endfor %}
+{% endcomment %}
