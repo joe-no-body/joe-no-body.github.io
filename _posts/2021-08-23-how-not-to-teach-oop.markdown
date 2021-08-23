@@ -57,6 +57,12 @@ learned the basics, but not how to apply them.
 
 It doesn't have to be this way.
 
+More than that, it's unacceptable that it is this way. OOP is practically
+ubiquitous, yet the way it's taught leaves countless learners in the lurch,
+stuck with incomplete knowledge and no clear path forward. We can't tolerate a
+way of teaching that leaves so many people feeling like they're incapable or
+excluded from some special cabal of geniuses.
+
 In this series, I want to further explore why OOP is so difficult to learn, some
 specific tropes in OOP pedagogy that I've seen hamper learning, and sketch an
 outline of how we might do better.
