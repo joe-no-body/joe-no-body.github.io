@@ -9,4 +9,4 @@
   - Ruby **2.7** (Ruby 3+ isn't supported) 
   - Bundler
 - `bundle install`
-- serve locally with `bundle exec jekyll serve`
+- serve locally with `bundle exec jekyll serve --unpublished --future`
