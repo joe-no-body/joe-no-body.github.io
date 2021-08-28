@@ -1,0 +1,9 @@
+---
+---
+@import "minima";
+
+// make hr padding match text elements so it's not lopsided
+// https://github.com/jekyll/minima/blob/v2.5.1/_sass/minima/_base.scss#L40
+hr {
+    margin-bottom: $spacing-unit / 2;
+}
